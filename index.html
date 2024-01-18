@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Persegi</title>
+</head>
+<body>
+    <header>
+        <div class="h1-container">
+            <h1>Kalkulator Luas dan Keliling Persegi</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3>Welcome to Kalkulator Luas dan Keliling Persegi</h3>
+        <p>Selamat datang di Kalkulator menghitung persegi</p>
+        <p>Sebuah web apps sederhana yang memiliki fungsi untuk menghitung luas dan keliling persegi </p>
+
+        <!-- LUAS -->
+        <div class="luasSquare">
+            <header class="wide"><b>Luas Persegi</b></header>
+            <div class="luasInputSection">
+                <img src="persegi.png" alt="persegiImage">
+                <p id="luasAreaFormula">Rumus Luas Persegi: </p>
+                <h5>L = S x S</h5>
+                <p id="formulaLuas">Dimana: 
+                    <br>L = Luas
+                    <br>S = Sisi 
+                </p>
+                <hr> 
+                <label for="luasForm" id="lblSquareSideLuas"><b>Hitung Luas Persegi</b></label>
+                <input type="number" id="squareSideLuas">
+                <p id="luasResult"></p>
+            </div>
+            <div class="buttons">
+                <button id="luasCountButton">Hitung</button>
+                <button id="luasResetButton">Reset</button>
+            </div>
+        </div>
+
+        <!-- KELILING -->
+        <div class="kelilingSquare">
+            <header class="wide"><b>Keliling Persegi</b></header>
+            <div class="kelilingInputSection">
+                <img src="persegi.png" alt="persegiImage">
+                <p id="kelilingAreaFormula">Rumus Keliling Persegi: </p>
+                <h5>K = 4 x S</h5>
+                <p id="formulaKeliling">Dimana: 
+                    <br>K = Keliling
+                    <br>S = Sisi 
+                </p>
+                <hr> 
+                <label for="kelilingForm" id="lblSquareSideKeliling"><b>Hitung Keliling Persegi</b></label>
+                <input type="number" id="squareSideKeliling">
+                <p id="kelilingResult"></p>
+            </div>
+            <div class="buttons">
+                <button id="kelilingCountButton">Hitung</button>
+                <button id="kelilingResetButton">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

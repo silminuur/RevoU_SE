@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF6BD ; 
+}
+
+header {
+    text-align: center;
+}
+
+.h1-container {
+    background-color: #69ac9f; 
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #ffffff; 
+
+}
+
+.container {
+    max-width: 95%;
+    margin: 20px auto;
+    background-color: #F6F6C9; 
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div h3 {
+    margin-top: 32px;
+    color: #1c6792;
+    text-align: center;
+}
+
+div p {
+    margin-top: 0px;
+    font-size: x-small;
+    color: #4f5b62;
+    text-align: center;
+    font-size: 80%;
+}
+
+img {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* luas */
+
+.luasSquare {
+    max-width: 100%;
+    margin: 20px auto;
+    background-color: #F8FFDB;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #69ac9f;
+}
+
+.luasInputSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+#luasAreaFormula {
+    text-align: left;
+    font-size: medium;
+}
+
+#formulaLuas {
+    text-align: left;
+    font-size: medium;
+}
+
+#lblSquareSideLuas {
+    font-size: large;
+}
+
+#squareSideLuas {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid #69ac9f;
+    padding: 10px;
+}
+
+#squareSideLuas:focus {
+    border: solid #317581;
+}
+
+/* keliling */
+
+.kelilingSquare {
+    max-width: 100%;
+    margin: 20px auto;
+    background-color: #F8FFDB;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #69ac9f;
+}
+
+.kelilingInputSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+#kelilingAreaFormula {
+    text-align: left;
+    font-size: medium;
+}
+
+#formulaKeliling {
+    text-align: left;
+    font-size: medium;
+}
+
+#lblSquareSideKeliling {
+    font-size: large;
+}
+
+#squareSideKeliling {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid #69ac9f;
+    padding: 10px;
+}
+
+#squareSideKeliling:focus {
+    border: solid #317581;
+}
+
+.kelilingResultOutput{
+    text-align: left;
+    font-size: larger;
+}
+
+#luasResult, #kelilingResult {
+    text-align: left;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.wide {
+    max-width: 100%; 
+    margin-bottom:20px; 
+    background-color: #69ac9f;
+    padding: 30px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: larger;
+}
+
+h5 {
+    font-size: large;
+}
+
+
+button {
+    background-color: #69ac9f;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #4f9a8d;
+}
+
+button:active {
+    background-color: #4a857b;
+    transform: translateY(2px);
+}
+
+#kelilingResetButton, #luasResetButton{
+    background-color: rgb(235, 190, 27);
+}
+
